@@ -109,3 +109,5 @@ async function processRepositories(repositories) {
 		bundleRepository(repository)
 	}
 }
+
+setTimeout(process.exit(0), 10 * 60 * 1000) // 10 minutes
